@@ -1,0 +1,30 @@
+# Logging Properties
+logging:
+  level:
+    org.hibernate.sql: DEBUG
+    org.hibernate.type.descriptor.sql: TRACE
+
+# SpringBoot
+spring.output.ansi.enabled: ALWAYS
+spring.main.web-application-type: none
+
+# App Config
+app:
+  json:
+    path: "C:\\Users\\mirce\\AppData\\Local\\LGHUB\\settings.db"
+    profileName: "PROFILE_NAME_DEFAULT"
+    slotId: "g502wireless_mouse_settings"
+  configuration:
+    dpiUp: "F13"
+    dpiDown: "F14"
+
+# SQLite
+spring:
+  datasource:
+    url: jdbc:sqlite:C:/Users/mirce/AppData/Local/LGHUB/settings.db
+    driver-class-name: org.sqlite.JDBC
+    username: ""
+    password: ""
+
+# FX
+spring.main.headless: false

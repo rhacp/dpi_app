@@ -1,0 +1,3669 @@
+{
+  "/devices/g502_wireless/persistent_data": {
+    "onboardMode": {}
+  },
+  "analytics": {
+    "hostId": "fcf0889f76e6e1c6e3c173ce6e0c5b75c5334d0cf685d648e67cdadb290e0a32",
+    "scheduledUserPrompt": {
+      "type": "new_user_prompt"
+    },
+    "userPrompted": true,
+    "versionNumber": "2018.4"
+  },
+  "applications": {
+    "applications": [
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "categoryColors": [
+          {
+            "hex": "#ff43ee",
+            "tag": "Editing"
+          },
+          {
+            "hex": "#eeff43",
+            "tag": "Productivity"
+          },
+          {
+            "hex": "#43eeff",
+            "tag": "Windows"
+          },
+          {
+            "hex": "#ff4390",
+            "tag": "Navigation"
+          }
+        ],
+        "commands": [
+          {
+            "cardId": "9560110b-7db0-4e7a-92c4-6b15189356f8",
+            "category": "Editing",
+            "name": "Cut"
+          },
+          {
+            "cardId": "110c3a34-eae0-4de2-97ad-5d2b45356bb5",
+            "category": "Editing",
+            "name": "Copy"
+          },
+          {
+            "cardId": "3c0e535b-c927-4462-a141-6b425e38097a",
+            "category": "Editing",
+            "name": "Paste"
+          },
+          {
+            "cardId": "c4954f51-d909-4335-bd9a-c77ccd446ffb",
+            "category": "Editing",
+            "name": "Undo"
+          },
+          {
+            "cardId": "fdc5bc86-bfa1-46d1-a103-91ce385c1ccc",
+            "category": "Editing",
+            "name": "Redo"
+          },
+          {
+            "cardId": "878dd916-c92b-48fd-a2ec-6c57471ba543",
+            "category": "Editing",
+            "name": "Select All"
+          },
+          {
+            "cardId": "b2304594-2eb3-4287-9ef2-3f28599f4785",
+            "category": "Editing",
+            "name": "Save"
+          },
+          {
+            "cardId": "f16d3306-71bf-44d2-86ed-c24781bf749a",
+            "category": "Editing",
+            "name": "New"
+          },
+          {
+            "cardId": "ad2aa999-c01a-45ee-8bac-45cdcc8bffb8",
+            "category": "Editing",
+            "name": "Open"
+          },
+          {
+            "cardId": "0f32857a-5df0-476d-93ff-d03c24541872",
+            "category": "Editing",
+            "name": "New tab"
+          },
+          {
+            "cardId": "b43be8ec-518d-4fae-aff9-1ced6a342b95",
+            "category": "Editing",
+            "name": "Close tab"
+          },
+          {
+            "cardId": "9240fe64-8233-46d0-bec8-2f77b9439e17",
+            "category": "Editing",
+            "name": "Zoom In"
+          },
+          {
+            "cardId": "fc15f066-d4b1-4b53-8644-10bc30758a05",
+            "category": "Editing",
+            "name": "Zoom Out"
+          },
+          {
+            "cardId": "f10f4c00-bd22-4631-98f0-2c6386f5dd54",
+            "category": "Editing",
+            "name": "Zoom Reset"
+          },
+          {
+            "cardId": "312e89ea-7a54-499b-9a87-bd5ee92971d4",
+            "category": "Productivity",
+            "name": "Switch Between Apps"
+          },
+          {
+            "cardId": "071dcfa4-82fe-4312-8d87-e48a1e6f4dfc",
+            "category": "Productivity",
+            "name": "Exit Active App"
+          },
+          {
+            "cardId": "4fcd11c4-12e2-4fdc-9797-b3a361968ec8",
+            "category": "Productivity",
+            "name": "Cycle Through Apps"
+          },
+          {
+            "cardId": "b5e39ffc-bb0c-4f7e-acd9-9ffd4ae3cc35",
+            "category": "Productivity",
+            "name": "Open Task Manager"
+          },
+          {
+            "cardId": "b117e065-24a9-4928-a65e-16fa47263034",
+            "category": "Productivity",
+            "name": "Open Start"
+          },
+          {
+            "cardId": "e9ffefdb-367f-4ab7-8cd4-84397a570f09",
+            "category": "Windows",
+            "name": "Lock PC"
+          },
+          {
+            "cardId": "a1481d41-a3f8-4e4b-98ef-537398c837c3",
+            "category": "Windows",
+            "name": "Hide/Show Desktop"
+          },
+          {
+            "cardId": "2f7b71e8-4eee-4b13-82b2-1d07fdc988a6",
+            "category": "Windows",
+            "name": "Open Action Center"
+          },
+          {
+            "cardId": "25802d14-ae6a-45f1-a957-d34e3879cdf8",
+            "category": "Windows",
+            "name": "Set Focus in Notification Area"
+          },
+          {
+            "cardId": "197d6fbe-876e-4b6b-9d67-fbd4e4928b85",
+            "category": "Windows",
+            "name": "Open File Explorer"
+          },
+          {
+            "cardId": "9d38464f-3da6-45d0-8b3d-196a97c7ac4b",
+            "category": "Windows",
+            "name": "Open Windows Game Bar"
+          },
+          {
+            "cardId": "43f1213b-488a-4de9-af86-2b1b292c1ff0",
+            "category": "Windows",
+            "name": "Open Windows Setting"
+          },
+          {
+            "cardId": "b0050fc4-972c-4cf3-8d00-7ee0036c3bfb",
+            "category": "Windows",
+            "name": "Open Connect Quick Action"
+          },
+          {
+            "cardId": "0d0e96d4-b189-4b80-99b3-178d2b2d8757",
+            "category": "Windows",
+            "name": "Minimize All Windows"
+          },
+          {
+            "cardId": "18a1160c-8132-48fe-b5e4-4a70e33da8d0",
+            "category": "Windows",
+            "name": "Run dialog"
+          },
+          {
+            "cardId": "d17be68d-d931-4ead-bf5a-447e9735f62f",
+            "category": "Windows",
+            "name": "Open Search"
+          },
+          {
+            "cardId": "a5d672c7-9ef1-48e8-98be-345b444b62a9",
+            "category": "Windows",
+            "name": "Cycle Task Bar Apps"
+          },
+          {
+            "cardId": "955f5066-3f03-4077-9a7b-b43215c2b620",
+            "category": "Windows",
+            "name": "Open Ease of Access Center"
+          },
+          {
+            "cardId": "7eb2aa4f-0aae-49d8-b58b-f08906836916",
+            "category": "Windows",
+            "name": "Open Quick Links"
+          },
+          {
+            "cardId": "560bc7d0-fc99-4254-aae2-e0c0527f115f",
+            "category": "Windows",
+            "name": "Open Emoji Panel"
+          },
+          {
+            "cardId": "b3b1bc30-747c-4872-a932-820a60267f99",
+            "category": "Windows",
+            "name": "Open Task View"
+          },
+          {
+            "cardId": "bf233fe4-6462-4a5e-8a68-6b0ee92c4038",
+            "category": "Windows",
+            "name": "Open Narrator"
+          },
+          {
+            "cardId": "68195e9c-848b-40e0-bf26-2c6855c47bee",
+            "category": "Windows",
+            "name": "Open Magnifier"
+          },
+          {
+            "cardId": "f71d9b1e-3fb4-45aa-9aba-ce3adf5476c2",
+            "category": "Windows",
+            "name": "Open Copilot"
+          },
+          {
+            "cardId": "2bf81b7c-5f64-44f8-a6d7-648e504b0aa0",
+            "category": "Navigation",
+            "name": "Go Back"
+          },
+          {
+            "cardId": "c0ccddda-2d08-405a-a59f-e66d8a0fbd91",
+            "category": "Navigation",
+            "name": "Go Forward"
+          }
+        ],
+        "databaseId": "420fd454-0c36-499d-bde4-146823b16147",
+        "name": "APPLICATION_NAME_DESKTOP",
+        "version": 6
+      },
+      {
+        "applicationFolder": "c:\\program files (x86)\\steam\\steamapps\\common\\Counter-Strike Global Offensive\\",
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "applicationPath": "c:\\program files (x86)\\steam\\steamapps\\common\\Counter-Strike Global Offensive\\",
+        "categoryColors": [
+          {
+            "hex": "#e40c0c",
+            "tag": "Movement"
+          },
+          {
+            "hex": "#3705eb",
+            "tag": "Weapons"
+          },
+          {
+            "hex": "#d80bf4",
+            "tag": "Skills"
+          },
+          {
+            "hex": "#12fb0e",
+            "tag": "Interface"
+          },
+          {
+            "hex": "#edf109",
+            "tag": "Comms"
+          },
+          {
+            "hex": "#e40c0c",
+            "tag": "Movement"
+          },
+          {
+            "hex": "#3705eb",
+            "tag": "Weapons"
+          },
+          {
+            "hex": "#d80bf4",
+            "tag": "Skills"
+          },
+          {
+            "hex": "#12fb0e",
+            "tag": "Interface"
+          },
+          {
+            "hex": "#edf109",
+            "tag": "Comms"
+          },
+          {
+            "hex": "#e40c0c",
+            "tag": "Movement"
+          },
+          {
+            "hex": "#3705eb",
+            "tag": "Weapons"
+          },
+          {
+            "hex": "#d80bf4",
+            "tag": "Skills"
+          },
+          {
+            "hex": "#12fb0e",
+            "tag": "Interface"
+          },
+          {
+            "hex": "#edf109",
+            "tag": "Comms"
+          }
+        ],
+        "commands": [
+          {
+            "cardId": "98a46832-4fd0-4dc7-b5b1-cc5bf35dc008",
+            "category": "Interface",
+            "name": "Toggle Inventory Display"
+          },
+          {
+            "cardId": "2cfbd53a-c862-4c87-bdee-6c3dc1d19fff",
+            "category": "Movement",
+            "name": "Move Forward"
+          },
+          {
+            "cardId": "58707f3e-df45-4763-b6b4-667583de9c7d",
+            "category": "Movement",
+            "name": "Move Backward"
+          },
+          {
+            "cardId": "8af914ec-78fe-4593-8da3-2daceb331e15",
+            "category": "Movement",
+            "name": "Strafe Left"
+          },
+          {
+            "cardId": "e8e7a54f-23af-47f2-817a-313e128a2b11",
+            "category": "Movement",
+            "name": "Strafe Right"
+          },
+          {
+            "cardId": "d82fc067-d9cf-4b29-887e-9151fcc6e883",
+            "category": "Movement",
+            "name": "Walk"
+          },
+          {
+            "cardId": "1cb89265-88d1-4e50-b023-6cf3b5b2ef65",
+            "category": "Movement",
+            "name": "Jump"
+          },
+          {
+            "cardId": "cb2c800f-9fe5-4ebb-9883-605cda0af413",
+            "category": "Movement",
+            "name": "Duck"
+          },
+          {
+            "cardId": "446f9531-41a7-4528-b26a-ca79624b4679",
+            "category": "Weapons",
+            "name": "Reload"
+          },
+          {
+            "cardId": "c86e2b9a-08e9-4d7f-85a0-ebd32132a440",
+            "category": "Weapons",
+            "name": "Drop Weapon"
+          },
+          {
+            "cardId": "b6bf095e-bd87-448c-8dbd-c74ae1478902",
+            "category": "Skills",
+            "name": "Use"
+          },
+          {
+            "cardId": "b96591eb-2cdc-4073-895c-93eaba18b968",
+            "category": "Comms",
+            "name": "Command Radio Message"
+          },
+          {
+            "cardId": "7c4a7240-97f6-4002-b857-378cde925d58",
+            "category": "Comms",
+            "name": "Standard Radio Message"
+          },
+          {
+            "cardId": "509fdf39-4e28-44c6-aa83-af8d6bb14813",
+            "category": "Comms",
+            "name": "Report Radio Message"
+          },
+          {
+            "cardId": "e79b6846-5b33-4ced-bc7d-3dd30ad86f37",
+            "category": "Comms",
+            "name": "Team Message"
+          },
+          {
+            "cardId": "896fd05a-dbc5-43f1-b2dd-d2cb4a0c45a5",
+            "category": "Comms",
+            "name": "Chat Message"
+          },
+          {
+            "cardId": "4926d34f-612c-4de2-836b-53f51fea0f96",
+            "category": "Comms",
+            "name": "Use Mic"
+          },
+          {
+            "cardId": "37d94c78-57f3-4c0f-a311-af283362796b",
+            "category": "Interface",
+            "name": "Buy Menu"
+          },
+          {
+            "cardId": "3d64b349-89b8-409a-8055-7d576355dd0f",
+            "category": "Interface",
+            "name": "Autobuy"
+          },
+          {
+            "cardId": "a26446ac-b75f-4c20-8c34-723290c634d3",
+            "category": "Interface",
+            "name": "Rebuy"
+          },
+          {
+            "cardId": "191cca40-2a7a-4d72-9300-d032eee2e438",
+            "category": "Interface",
+            "name": "Scoreboard"
+          },
+          {
+            "cardId": "18603ded-06e7-4389-9658-8731e98e8abc",
+            "category": "Weapons",
+            "name": "Primary Weapon"
+          },
+          {
+            "cardId": "563ef68f-127e-46a3-a1e5-1567f79c8c01",
+            "category": "Weapons",
+            "name": "Secondary"
+          },
+          {
+            "cardId": "c14a1274-3eb8-421f-a66d-e70af6f9539d",
+            "category": "Weapons",
+            "name": "Knife"
+          },
+          {
+            "cardId": "d12f76a3-1107-457e-af6b-eadbf46fe561",
+            "category": "Weapons",
+            "name": "Cycle Grenades"
+          },
+          {
+            "cardId": "39fc8334-3d56-46b4-ac10-157821488e63",
+            "category": "Weapons",
+            "name": "Bomb"
+          },
+          {
+            "cardId": "411199c2-d147-411b-b276-802aa0d00128",
+            "category": "Weapons",
+            "name": "HE Grenade"
+          },
+          {
+            "cardId": "eef30572-92f1-4bac-9da9-9cd6566ef950",
+            "category": "Weapons",
+            "name": "Flashbang"
+          },
+          {
+            "cardId": "284dad0e-521d-443d-abc6-f375c0e8022f",
+            "category": "Weapons",
+            "name": "Smoke Grenade"
+          },
+          {
+            "cardId": "0223724e-8582-4551-a6fe-fe5f8fd050c4",
+            "category": "Weapons",
+            "name": "Decoy Grenade"
+          },
+          {
+            "cardId": "5020915a-3c16-4f98-9bf4-ae6c748c732d",
+            "category": "Weapons",
+            "name": "Molotov Cocktail"
+          },
+          {
+            "cardId": "1ce7d1db-af1c-43ad-b913-967cfa8311a0",
+            "category": "Interface",
+            "name": "Choose Team"
+          },
+          {
+            "cardId": "263fbd0f-6796-4045-a184-0c0c122f04bc",
+            "category": "Interface",
+            "name": "Toggle Console"
+          }
+        ],
+        "databaseId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "isInstalled": true,
+        "name": "Counter-Strike: Global Offensive",
+        "posterTitlePosition": "0",
+        "posterUrl": "http://127.0.0.1:9180/core_apps/images/counter_strike_2_poster.jpg",
+        "version": 1
+      }
+    ]
+  },
+  "autostart": true,
+  "battery/g502wireless/warning": {
+    "deviceId": "dev00000003",
+    "level": "GOOD",
+    "percentage": 50,
+    "time": "1757355766"
+  },
+  "blue_voice_advanced_controls_enabled": false,
+  "brand": "Logitech",
+  "cards": {
+    "cards": [
+      {
+        "attribute": "EQUALIZER",
+        "equalizer": {
+          "advanced": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deviceType": "HEADSET",
+          "name": "DEFAULT",
+          "simple": [
+            0,
+            0
+          ],
+          "type": "SIMPLE"
+        },
+        "id": "05525ad1-71a4-45c4-aafa-d56ad1429f32",
+        "name": "EQUALIZER_SIMPLE_DEFAULT_HIDDEN",
+        "readOnly": true
+      },
+      {
+        "attribute": "EQUALIZER",
+        "equalizer": {
+          "advanced": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deviceType": "HEADSET",
+          "name": "EQUALIZER_FLAT",
+          "simple": [
+            0,
+            0
+          ],
+          "type": "ADVANCED"
+        },
+        "id": "0c94ec70-b811-4301-853f-e044c119cf97",
+        "name": "EQUALIZER_FLAT",
+        "readOnly": true
+      },
+      {
+        "attribute": "EQUALIZER",
+        "equalizer": {
+          "advanced": [
+            0,
+            0,
+            -0.96,
+            -1.44,
+            3.84,
+            4.56,
+            3.12,
+            3.12,
+            1.92,
+            0.48
+          ],
+          "deviceType": "HEADSET",
+          "name": "EQUALIZER_FPS",
+          "simple": [
+            0,
+            0
+          ],
+          "type": "ADVANCED"
+        },
+        "id": "76b7a515-2c3c-4dab-bf65-48fff5318008",
+        "name": "EQUALIZER_FPS",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "9240fe64-8233-46d0-bec8-2f77b9439e17",
+        "macro": {
+          "actionName": "Ctrl + =",
+          "keystroke": {
+            "code": 46,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Zoom In",
+        "readOnly": true
+      },
+      {
+        "attribute": "EQUALIZER",
+        "equalizer": {
+          "advanced": [
+            3.12,
+            2.64,
+            1.92,
+            1.2,
+            1.2,
+            1.92,
+            1.2,
+            0,
+            0,
+            0
+          ],
+          "deviceType": "HEADSET",
+          "name": "EQUALIZER_CINEMATIC",
+          "simple": [
+            0,
+            0
+          ],
+          "type": "ADVANCED"
+        },
+        "id": "88615910-55f0-4e5a-88c8-855003ffa87a",
+        "name": "EQUALIZER_CINEMATIC",
+        "readOnly": true
+      },
+      {
+        "attribute": "PRO_EQUALIZER",
+        "id": "aa1e0f3d-d5d1-42e3-ad24-0193e27f4416",
+        "name": "TSM Myth",
+        "proEqualizer": {
+          "bands": [
+            3,
+            1,
+            2,
+            3,
+            2
+          ],
+          "deviceType": "HEADSET",
+          "name": "TSM Myth",
+          "tag": "PRO_PRESET",
+          "type": "PRO"
+        },
+        "readOnly": true
+      },
+      {
+        "attribute": "EQUALIZER",
+        "equalizer": {
+          "advanced": [
+            0,
+            -0.96,
+            -0.96,
+            1.92,
+            3.6,
+            4.32,
+            3.6,
+            3.6,
+            1.68,
+            0.96
+          ],
+          "deviceType": "HEADSET",
+          "name": "EQUALIZER_COMMUNICATIONS",
+          "simple": [
+            0,
+            0
+          ],
+          "type": "ADVANCED"
+        },
+        "id": "937a09ad-86d3-495c-847a-de859fc59712",
+        "name": "EQUALIZER_COMMUNICATIONS",
+        "readOnly": true
+      },
+      {
+        "attribute": "CENTURION_EQUALIZER",
+        "centurionEqualizer": {
+          "deviceType": "HEADSET",
+          "gains": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "name": "EQUALIZER_FLAT",
+          "type": "CENTURION"
+        },
+        "id": "123e0346-e78a-43e0-b81c-55d24f267f5c",
+        "name": "EQUALIZER_FLAT",
+        "readOnly": true
+      },
+      {
+        "attribute": "EQUALIZER",
+        "equalizer": {
+          "advanced": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            -3,
+            -4,
+            -5,
+            -6,
+            -6
+          ],
+          "deviceType": "SPEAKER",
+          "name": "EQUALIZER_BASS_BOOST",
+          "simple": [
+            0,
+            0
+          ],
+          "type": "ADVANCED"
+        },
+        "id": "fd92f827-4096-4e6c-96b5-b3e7620d1502",
+        "name": "EQUALIZER_BASS_BOOST",
+        "readOnly": true
+      },
+      {
+        "attribute": "EQUALIZER",
+        "equalizer": {
+          "advanced": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deviceType": "SPEAKER",
+          "name": "EQUALIZER_FLAT",
+          "simple": [
+            0,
+            0
+          ],
+          "type": "ADVANCED"
+        },
+        "id": "34d14cea-9476-4fa9-aca7-bcdb008952fd",
+        "name": "EQUALIZER_FLAT",
+        "readOnly": true
+      },
+      {
+        "attribute": "EQUALIZER",
+        "equalizer": {
+          "advanced": [
+            0,
+            -1.92,
+            -2.4,
+            0,
+            4.32,
+            1.92,
+            3.6,
+            7.68,
+            3.6,
+            0
+          ],
+          "deviceType": "HEADSET",
+          "name": "EQUALIZER_MOBA",
+          "simple": [
+            0,
+            0
+          ],
+          "type": "ADVANCED"
+        },
+        "id": "617470b0-7712-4f74-8da0-d4ca9283c8fb",
+        "name": "EQUALIZER_MOBA",
+        "readOnly": true
+      },
+      {
+        "attribute": "EQUALIZER",
+        "equalizer": {
+          "advanced": [
+            3.6,
+            2.64,
+            1.68,
+            0.96,
+            0.96,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deviceType": "HEADSET",
+          "name": "EQUALIZER_BASS_BOOST",
+          "simple": [
+            0,
+            0
+          ],
+          "type": "ADVANCED"
+        },
+        "id": "4b5147ba-0818-4c77-9dd4-152072c20042",
+        "name": "EQUALIZER_BASS_BOOST",
+        "readOnly": true
+      },
+      {
+        "attribute": "PRO_EQUALIZER",
+        "id": "50487783-6987-4160-a2d4-e146f7ac6640",
+        "name": "TSM Bjergsen",
+        "proEqualizer": {
+          "bands": [
+            2,
+            2,
+            -1,
+            4,
+            4
+          ],
+          "deviceType": "HEADSET",
+          "name": "TSM Bjergsen",
+          "tag": "PRO_PRESET",
+          "type": "PRO"
+        },
+        "readOnly": true
+      },
+      {
+        "attribute": "EQUALIZER",
+        "equalizer": {
+          "advanced": [
+            0,
+            0,
+            -6,
+            -5,
+            -3,
+            -2,
+            -3,
+            -3,
+            -5,
+            -6
+          ],
+          "deviceType": "SPEAKER",
+          "name": "EQUALIZER_FPS",
+          "simple": [
+            0,
+            0
+          ],
+          "type": "ADVANCED"
+        },
+        "id": "58d82764-0486-4068-a818-68d1cc87e91d",
+        "name": "EQUALIZER_FPS",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Comms",
+        "id": "afccbb24-27cd-425b-a452-2fa7302b1bbc",
+        "macro": {
+          "actionName": "C",
+          "keystroke": {
+            "code": 6
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Report Radio Message",
+        "readOnly": true
+      },
+      {
+        "attribute": "EQUALIZER",
+        "equalizer": {
+          "advanced": [
+            0,
+            -10,
+            -11,
+            0,
+            -2,
+            -5,
+            -3,
+            -17,
+            -3,
+            0
+          ],
+          "deviceType": "SPEAKER",
+          "name": "EQUALIZER_MOBA",
+          "simple": [
+            0,
+            0
+          ],
+          "type": "ADVANCED"
+        },
+        "id": "e6b6fdd4-7988-4c2c-8122-3853c3a1b2f4",
+        "name": "EQUALIZER_MOBA",
+        "readOnly": true
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "c4892602-37b0-4d69-ba26-0c00514d9f8a",
+        "macro": {
+          "action": {
+            "actionId": "discord_voice_mute",
+            "integrationId": "9f1134cfb89202f3"
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_DISCORD_VOICE_MUTE"
+      },
+      {
+        "attribute": "EQUALIZER",
+        "equalizer": {
+          "advanced": [
+            -3,
+            -4,
+            -5,
+            -6,
+            -6,
+            -5,
+            -6,
+            0,
+            0,
+            0
+          ],
+          "deviceType": "SPEAKER",
+          "name": "EQUALIZER_CINEMATIC",
+          "simple": [
+            0,
+            0
+          ],
+          "type": "ADVANCED"
+        },
+        "id": "6856912f-c4be-4add-9f9c-56249d566be6",
+        "name": "EQUALIZER_CINEMATIC",
+        "readOnly": true
+      },
+      {
+        "attribute": "EQUALIZER",
+        "equalizer": {
+          "advanced": [
+            0,
+            -0.96,
+            -0.96,
+            1.92,
+            3.6,
+            4.32,
+            3.6,
+            3.6,
+            1.68,
+            0.96
+          ],
+          "deviceType": "SPEAKER",
+          "name": "EQUALIZER_COMMUNICATIONS",
+          "simple": [
+            0,
+            0
+          ],
+          "type": "ADVANCED"
+        },
+        "id": "d27c3937-c03e-4fd5-9871-19c773513060",
+        "name": "EQUALIZER_COMMUNICATIONS",
+        "readOnly": true
+      },
+      {
+        "attribute": "PRO_EQUALIZER",
+        "id": "0487742c-a435-4379-95d6-f0b52fe4e0f8",
+        "name": "PRO_EQUALIZER_DEFAULT",
+        "proEqualizer": {
+          "bands": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "name": "PRO_EQUALIZER_DEFAULT",
+          "type": "PRO"
+        },
+        "readOnly": true
+      },
+      {
+        "arcSettings": {
+          "controlPoints": [
+            {
+              "x": 3932
+            },
+            {
+              "x": 18350,
+              "y": 655
+            },
+            {
+              "x": 32112,
+              "y": 3277
+            },
+            {
+              "x": 44564,
+              "y": 10486
+            },
+            {
+              "x": 54394,
+              "y": 22282
+            },
+            {
+              "x": 60292,
+              "y": 36700
+            }
+          ],
+          "curve": "CATMULLROM",
+          "deadZone": {}
+        },
+        "attribute": "AXIS_RESPONSE_CURVE_SETTINGS",
+        "category": "custom",
+        "id": "c2e3b154-807a-4650-a4b5-2de9466fb725",
+        "name": "Low",
+        "readOnly": true
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "d186de60-6155-4501-b6e5-2d996f59d9e7",
+        "macro": {
+          "action": {
+            "actionId": "obs_recording_toggle",
+            "integrationId": "ae67192054b1d99f"
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_OBS_TOGGLE_RECORDING"
+      },
+      {
+        "attribute": "PRO_EQUALIZER",
+        "id": "f2372777-f4eb-4370-97a1-74e7b606fd48",
+        "name": "EQUALIZER_FPS",
+        "proEqualizer": {
+          "bands": [
+            2,
+            2,
+            0,
+            4,
+            1
+          ],
+          "deviceType": "HEADSET",
+          "name": "EQUALIZER_FPS",
+          "type": "PRO"
+        },
+        "readOnly": true
+      },
+      {
+        "attribute": "PRO_EQUALIZER",
+        "id": "9eb2e33c-cf6d-42b6-977a-f8939b65ddab",
+        "name": "TSM Hamlinz",
+        "proEqualizer": {
+          "bands": [
+            1,
+            1,
+            2,
+            3,
+            -1
+          ],
+          "deviceType": "HEADSET",
+          "name": "TSM Hamlinz",
+          "tag": "PRO_PRESET",
+          "type": "PRO"
+        },
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Navigation",
+        "id": "2bf81b7c-5f64-44f8-a6d7-648e504b0aa0",
+        "macro": {
+          "actionName": "Alt + Left",
+          "keystroke": {
+            "code": 80,
+            "modifiers": [
+              226
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Go Back",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "878dd916-c92b-48fd-a2ec-6c57471ba543",
+        "macro": {
+          "actionName": "Ctrl + A",
+          "keystroke": {
+            "code": 4,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Select All",
+        "readOnly": true
+      },
+      {
+        "attribute": "PRO_EQUALIZER",
+        "id": "5d42a856-1b6f-4c2a-9ab1-be086e53935f",
+        "name": "EQUALIZER_MOBA",
+        "proEqualizer": {
+          "bands": [
+            0,
+            -2,
+            3,
+            3,
+            3
+          ],
+          "deviceType": "HEADSET",
+          "name": "EQUALIZER_MOBA",
+          "type": "PRO"
+        },
+        "readOnly": true
+      },
+      {
+        "attribute": "PRO_EQUALIZER",
+        "id": "1f380829-db70-438e-adb6-54c46b95c4aa",
+        "name": "London Spitfire Profit",
+        "proEqualizer": {
+          "bands": [
+            -2,
+            -1,
+            1,
+            2,
+            3
+          ],
+          "deviceType": "HEADSET",
+          "name": "London Spitfire Profit",
+          "tag": "PRO_PRESET",
+          "type": "PRO"
+        },
+        "readOnly": true
+      },
+      {
+        "attribute": "PRO_EQUALIZER",
+        "id": "b4bdd01f-a3a8-4163-817e-43808ffbf4bf",
+        "name": "G2 shox",
+        "proEqualizer": {
+          "bands": [
+            1,
+            -1,
+            -2,
+            1,
+            2
+          ],
+          "deviceType": "HEADSET",
+          "name": "G2 shox",
+          "tag": "PRO_PRESET",
+          "type": "PRO"
+        },
+        "readOnly": true
+      },
+      {
+        "attribute": "CENTURION_EQUALIZER",
+        "centurionEqualizer": {
+          "deviceType": "HEADSET",
+          "gains": [
+            2,
+            2,
+            0,
+            4,
+            1
+          ],
+          "name": "EQUALIZER_FPS",
+          "type": "CENTURION"
+        },
+        "id": "61fba25f-d535-4183-86d9-8ed4ab0278dd",
+        "name": "EQUALIZER_FPS",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "d17be68d-d931-4ead-bf5a-447e9735f62f",
+        "macro": {
+          "actionName": "Left Windows + S",
+          "keystroke": {
+            "code": 22,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Search",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "3c0e535b-c927-4462-a141-6b425e38097a",
+        "macro": {
+          "actionName": "Ctrl + V",
+          "keystroke": {
+            "code": 25,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Paste",
+        "readOnly": true
+      },
+      {
+        "attribute": "CENTURION_EQUALIZER",
+        "centurionEqualizer": {
+          "deviceType": "HEADSET",
+          "gains": [
+            0,
+            -2,
+            3,
+            3,
+            3
+          ],
+          "name": "EQUALIZER_MOBA",
+          "type": "CENTURION"
+        },
+        "id": "b2c8ab8c-8366-4905-9f1c-b4ed12d31326",
+        "name": "EQUALIZER_MOBA",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "fdc5bc86-bfa1-46d1-a103-91ce385c1ccc",
+        "macro": {
+          "actionName": "Ctrl + Y",
+          "keystroke": {
+            "code": 28,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Redo",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "4ca2c0f5-e59b-4a81-ab06-1f579e464c56",
+        "macro": {
+          "actionName": "`",
+          "keystroke": {
+            "code": 53
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Toggle Console",
+        "readOnly": true
+      },
+      {
+        "attribute": "CAMERA_SETTINGS",
+        "cameraSettings": {
+          "audioMode": "STEREO",
+          "exposure": {
+            "mode": "AUTO",
+            "value": -5
+          },
+          "focus": {
+            "mode": "AUTO"
+          },
+          "fov": 78,
+          "hdr": true,
+          "iris": {
+            "mode": "MANUAL"
+          },
+          "pan": {
+            "mode": "MANUAL"
+          },
+          "priority": "FRAME_RATE",
+          "roll": {
+            "mode": "MANUAL"
+          },
+          "tilt": {
+            "mode": "MANUAL"
+          },
+          "zoom": {
+            "mode": "MANUAL",
+            "value": 100
+          }
+        },
+        "id": "570d3eeb-abcf-451d-0000-9d65f64ce5a0",
+        "name": "STREAMING",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "8af914ec-78fe-4593-8da3-2daceb331e15",
+        "macro": {
+          "actionName": "A",
+          "keystroke": {
+            "code": 4
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Strafe Left",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Navigation",
+        "id": "c0ccddda-2d08-405a-a59f-e66d8a0fbd91",
+        "macro": {
+          "actionName": "Alt + Right",
+          "keystroke": {
+            "code": 79,
+            "modifiers": [
+              226
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Go Forward",
+        "readOnly": true
+      },
+      {
+        "attribute": "CAMERA_SETTINGS",
+        "cameraSettings": {
+          "audioMode": "MONO",
+          "exposure": {
+            "mode": "AUTO",
+            "value": -5
+          },
+          "focus": {
+            "mode": "AUTO"
+          },
+          "fov": 90,
+          "hdr": true,
+          "iris": {
+            "mode": "MANUAL"
+          },
+          "pan": {
+            "mode": "MANUAL"
+          },
+          "priority": "EXPOSURE",
+          "roll": {
+            "mode": "MANUAL"
+          },
+          "tilt": {
+            "mode": "MANUAL"
+          },
+          "zoom": {
+            "mode": "MANUAL",
+            "value": 100
+          }
+        },
+        "id": "74f97c2b-9839-4dea-0000-a55d5448ae62",
+        "name": "VIDEO_CALL",
+        "readOnly": true
+      },
+      {
+        "attribute": "VIDEO_SETTINGS",
+        "id": "5ddce669-57c3-40f6-0000-f2aabe64dbd5",
+        "name": "ZOMBIE",
+        "readOnly": true,
+        "videoSettings": {
+          "antiFlicker": 60,
+          "brightness": {
+            "mode": "MANUAL",
+            "value": 95
+          },
+          "color": {
+            "mode": "MANUAL"
+          },
+          "contrast": {
+            "mode": "MANUAL",
+            "value": 80
+          },
+          "gain": {
+            "mode": "MANUAL",
+            "value": 128
+          },
+          "gamma": {
+            "mode": "MANUAL"
+          },
+          "hue": {
+            "mode": "MANUAL",
+            "value": 50
+          },
+          "saturation": {
+            "mode": "MANUAL",
+            "value": 128
+          },
+          "sharpness": {
+            "mode": "MANUAL",
+            "value": 128
+          },
+          "whiteBalance": {
+            "mode": "AUTO",
+            "value": 4280
+          }
+        }
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "0d0e96d4-b189-4b80-99b3-178d2b2d8757",
+        "macro": {
+          "actionName": "Left Windows + M",
+          "keystroke": {
+            "code": 16,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Minimize All Windows",
+        "readOnly": true
+      },
+      {
+        "attribute": "VIDEO_SETTINGS",
+        "id": "1068c6e4-4ebd-4906-0000-0e1b022eee71",
+        "name": "CARTOON",
+        "readOnly": true,
+        "videoSettings": {
+          "antiFlicker": 60,
+          "brightness": {
+            "mode": "MANUAL",
+            "value": 128
+          },
+          "color": {
+            "mode": "MANUAL"
+          },
+          "contrast": {
+            "mode": "MANUAL",
+            "value": 160
+          },
+          "gain": {
+            "mode": "MANUAL",
+            "value": 128
+          },
+          "gamma": {
+            "mode": "MANUAL"
+          },
+          "hue": {
+            "mode": "MANUAL",
+            "value": 50
+          },
+          "saturation": {
+            "mode": "MANUAL",
+            "value": 255
+          },
+          "sharpness": {
+            "mode": "MANUAL"
+          },
+          "whiteBalance": {
+            "mode": "AUTO",
+            "value": 4290
+          }
+        }
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "e8118ce9-ca15-48fb-8ae3-25f0fe6e4bc8",
+        "macro": {
+          "action": {
+            "actionId": "slobs_stream_toggle",
+            "integrationId": "7264dd41c5d6c6f6"
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_SLOBS_TOGGLE_STREAM"
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "58707f3e-df45-4763-b6b4-667583de9c7d",
+        "macro": {
+          "actionName": "S",
+          "keystroke": {
+            "code": 22
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Move Backward",
+        "readOnly": true
+      },
+      {
+        "attribute": "VIDEO_SETTINGS",
+        "id": "6fc5b9d8-957b-430f-0000-2b020a2fd6fa",
+        "name": "BLACK_AND_WHITE",
+        "readOnly": true,
+        "videoSettings": {
+          "antiFlicker": 60,
+          "brightness": {
+            "mode": "MANUAL",
+            "value": 128
+          },
+          "color": {
+            "mode": "MANUAL"
+          },
+          "contrast": {
+            "mode": "MANUAL",
+            "value": 128
+          },
+          "gain": {
+            "mode": "MANUAL",
+            "value": 128
+          },
+          "gamma": {
+            "mode": "MANUAL"
+          },
+          "hue": {
+            "mode": "MANUAL",
+            "value": 50
+          },
+          "saturation": {
+            "mode": "MANUAL"
+          },
+          "sharpness": {
+            "mode": "MANUAL",
+            "value": 128
+          },
+          "whiteBalance": {
+            "mode": "AUTO",
+            "value": 4280
+          }
+        }
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "573fc3eb-daf5-417c-8b06-37347129d64d",
+        "macro": {
+          "action": {
+            "actionId": "slobs_recording_toggle",
+            "integrationId": "7264dd41c5d6c6f6"
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_SLOBS_TOGGLE_RECORDING"
+      },
+      {
+        "attribute": "VIDEO_SETTINGS",
+        "id": "8ac986e2-36b4-427d-0000-ee0fbf4abf5e",
+        "name": "SICKNESS",
+        "readOnly": true,
+        "videoSettings": {
+          "antiFlicker": 60,
+          "brightness": {
+            "mode": "MANUAL",
+            "value": 128
+          },
+          "color": {
+            "mode": "MANUAL"
+          },
+          "contrast": {
+            "mode": "MANUAL",
+            "value": 200
+          },
+          "gain": {
+            "mode": "MANUAL",
+            "value": 128
+          },
+          "gamma": {
+            "mode": "MANUAL"
+          },
+          "hue": {
+            "mode": "MANUAL",
+            "value": 50
+          },
+          "saturation": {
+            "mode": "MANUAL",
+            "value": 65
+          },
+          "sharpness": {
+            "mode": "MANUAL",
+            "value": 200
+          },
+          "whiteBalance": {
+            "mode": "AUTO",
+            "value": 4290
+          }
+        }
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "98ebdeac-8bcd-4b63-a977-886ea6e8adf4",
+        "macro": {
+          "action": {
+            "actionId": "discord_voice_deafen",
+            "integrationId": "9f1134cfb89202f3"
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_DISCORD_VOICE_DEAFEN"
+      },
+      {
+        "arcSettings": {
+          "controlPoints": [
+            {
+              "x": 4096,
+              "y": 4096
+            },
+            {
+              "x": 8192,
+              "y": 8192
+            },
+            {
+              "x": 16384,
+              "y": 16384
+            },
+            {
+              "x": 32768,
+              "y": 32768
+            },
+            {
+              "x": 49152,
+              "y": 49152
+            },
+            {
+              "x": 57342,
+              "y": 57342
+            }
+          ],
+          "curve": "CATMULLROM",
+          "deadZone": {}
+        },
+        "attribute": "AXIS_RESPONSE_CURVE_SETTINGS",
+        "category": "custom",
+        "id": "2d7eed38-3501-4340-b1be-965e2db49a5b",
+        "name": "Linear",
+        "readOnly": true
+      },
+      {
+        "arcSettings": {
+          "controlPoints": [
+            {
+              "x": 3932,
+              "y": 28835
+            },
+            {
+              "x": 7864,
+              "y": 38010
+            },
+            {
+              "x": 15728,
+              "y": 48496
+            },
+            {
+              "x": 30801,
+              "y": 59637
+            },
+            {
+              "x": 45219,
+              "y": 64224
+            },
+            {
+              "x": 57671,
+              "y": 65535
+            }
+          ],
+          "curve": "CATMULLROM",
+          "deadZone": {}
+        },
+        "attribute": "AXIS_RESPONSE_CURVE_SETTINGS",
+        "category": "custom",
+        "id": "5ca642e9-fb20-424c-b7a5-6a06161745db",
+        "name": "High",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "f834ea22-fa2b-4d00-a5f7-d08d45242494",
+        "macro": {
+          "actionName": "4",
+          "keystroke": {
+            "code": 33
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Cycle Grenades",
+        "readOnly": true
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "b60bd637-5910-4d4a-b77c-62dcb5f6a4a6",
+        "macro": {
+          "action": {
+            "actionId": "ow_perform_command",
+            "integrationId": "3776b8da1238dc5",
+            "parameters": {
+              "app_selection": "lnhebboianabbebhnpoodokcdcnmikacoeijpjfe",
+              "command_selection": "ow_take_screenshot"
+            }
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_OW_TAKE_SCREENSHOT"
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "56029645-f2d8-4eb3-a43b-0132adc252a6",
+        "macro": {
+          "action": {
+            "actionId": "ow_perform_command",
+            "integrationId": "3776b8da1238dc5",
+            "parameters": {
+              "app_selection": "lnhebboianabbebhnpoodokcdcnmikacoeijpjfe",
+              "command_selection": "ow_capture_video"
+            }
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_OW_CAPTURE_VIDEO"
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "e91d1ac5-c86a-4d03-98c4-02b0d5ecc60f",
+        "macro": {
+          "action": {
+            "actionId": "ow_perform_command",
+            "integrationId": "3776b8da1238dc5",
+            "parameters": {
+              "app_selection": "hffhbjnafafjnehejohpkfhjdenpifhihebpkhni",
+              "command_selection": "ow_replay_show_last"
+            }
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_OW_REPLAY_SHOW_LAST"
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "afe97c98-38d8-48f5-b961-4b5f988b60c9",
+        "macro": {
+          "actionName": "5",
+          "keystroke": {
+            "code": 34
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Bomb",
+        "readOnly": true
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "78e60d43-d8a2-48bc-8b44-14b26c91ccb9",
+        "macro": {
+          "action": {
+            "actionId": "ow_perform_command",
+            "integrationId": "3776b8da1238dc5",
+            "parameters": {
+              "app_selection": "hffhbjnafafjnehejohpkfhjdenpifhihebpkhni",
+              "command_selection": "ow_replay_capture"
+            }
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_OW_REPLAY_CAPTURE"
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "cecf4bd8-a07f-40ab-abb0-c0cd5cc7badf",
+        "macro": {
+          "action": {
+            "actionId": "ow_perform_command",
+            "integrationId": "3776b8da1238dc5",
+            "parameters": {
+              "app_selection": "oepmnephgakhodlemnladfmcnhfhbfdnbgolmcok",
+              "command_selection": "ow_stream_toggle"
+            }
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_OW_STREAM_TOGGLE"
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "f16d3306-71bf-44d2-86ed-c24781bf749a",
+        "macro": {
+          "actionName": "Ctrl + N",
+          "keystroke": {
+            "code": 17,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "New",
+        "readOnly": true
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "9aa07c92-f557-4399-8c57-e08bcf0c4b5b",
+        "macro": {
+          "action": {
+            "actionId": "obs_stream_toggle",
+            "integrationId": "ae67192054b1d99f"
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_OBS_TOGGLE_STREAM"
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "b332c74f-bdb7-455d-b869-f87d8a70a2e7",
+        "macro": {
+          "action": {
+            "actionId": "obs_buffer_save",
+            "integrationId": "ae67192054b1d99f"
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_OBS_SAVE_BUFFER"
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Productivity",
+        "id": "b117e065-24a9-4928-a65e-16fa47263034",
+        "macro": {
+          "actionName": "Ctrl + Esc",
+          "keystroke": {
+            "code": 41,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Start",
+        "readOnly": true
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "a7a5c40e-572e-4443-8205-4883e9d47bdc",
+        "macro": {
+          "action": {
+            "actionId": "obs_desktop_mute_toggle",
+            "integrationId": "ae67192054b1d99f"
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_OBS_DESKTOP_MUTE_TOGGLE"
+      },
+      {
+        "attribute": "MACRO_PLAYBACK",
+        "id": "c011aa51-7fb7-47ac-863c-6af0e4870d78",
+        "macro": {
+          "action": {
+            "actionId": "obs_mic_mute_toggle",
+            "integrationId": "ae67192054b1d99f"
+          },
+          "type": "ACTION"
+        },
+        "name": "APPLET_OBS_MIC_MUTE_TOGGLE"
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Productivity",
+        "id": "4fcd11c4-12e2-4fdc-9797-b3a361968ec8",
+        "macro": {
+          "actionName": "Alt + Esc",
+          "keystroke": {
+            "code": 41,
+            "modifiers": [
+              226
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Cycle Through Apps",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "b2304594-2eb3-4287-9ef2-3f28599f4785",
+        "macro": {
+          "actionName": "Ctrl + S",
+          "keystroke": {
+            "code": 22,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Save",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "eef30572-92f1-4bac-9da9-9cd6566ef950",
+        "macro": {
+          "actionName": "7",
+          "keystroke": {
+            "code": 36
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Flashbang",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "9560110b-7db0-4e7a-92c4-6b15189356f8",
+        "macro": {
+          "actionName": "Ctrl + X",
+          "keystroke": {
+            "code": 27,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Cut",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "110c3a34-eae0-4de2-97ad-5d2b45356bb5",
+        "macro": {
+          "actionName": "Ctrl + C",
+          "keystroke": {
+            "code": 6,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Copy",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "c4954f51-d909-4335-bd9a-c77ccd446ffb",
+        "macro": {
+          "actionName": "Ctrl + Z",
+          "keystroke": {
+            "code": 29,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Undo",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "ce45dae0-242d-44f0-9cda-4e84cc612653",
+        "macro": {
+          "actionName": "6",
+          "keystroke": {
+            "code": 35
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "HE Grenade",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "68195e9c-848b-40e0-bf26-2c6855c47bee",
+        "macro": {
+          "actionName": "Left Windows + =",
+          "keystroke": {
+            "code": 46,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Magnifier",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "ad2aa999-c01a-45ee-8bac-45cdcc8bffb8",
+        "macro": {
+          "actionName": "Ctrl + O",
+          "keystroke": {
+            "code": 18,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "0f32857a-5df0-476d-93ff-d03c24541872",
+        "macro": {
+          "actionName": "Ctrl + T",
+          "keystroke": {
+            "code": 23,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "New tab",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "b43be8ec-518d-4fae-aff9-1ced6a342b95",
+        "macro": {
+          "actionName": "Ctrl + W",
+          "keystroke": {
+            "code": 26,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Close tab",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Productivity",
+        "id": "b5e39ffc-bb0c-4f7e-acd9-9ffd4ae3cc35",
+        "macro": {
+          "actionName": "Ctrl + Shift + Esc",
+          "keystroke": {
+            "code": 41,
+            "modifiers": [
+              224,
+              225
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Task Manager",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "fc15f066-d4b1-4b53-8644-10bc30758a05",
+        "macro": {
+          "actionName": "Ctrl + -",
+          "keystroke": {
+            "code": 45,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Zoom Out",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Editing",
+        "id": "f10f4c00-bd22-4631-98f0-2c6386f5dd54",
+        "macro": {
+          "actionName": "Ctrl + 0",
+          "keystroke": {
+            "code": 39,
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Zoom Reset",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "b0050fc4-972c-4cf3-8d00-7ee0036c3bfb",
+        "macro": {
+          "actionName": "Left Windows + K",
+          "keystroke": {
+            "code": 14,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Connect Quick Action",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "a1481d41-a3f8-4e4b-98ef-537398c837c3",
+        "macro": {
+          "actionName": "Left Windows + D",
+          "keystroke": {
+            "code": 7,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Hide/Show Desktop",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Productivity",
+        "id": "312e89ea-7a54-499b-9a87-bd5ee92971d4",
+        "macro": {
+          "actionName": "Alt + Tab",
+          "keystroke": {
+            "code": 43,
+            "modifiers": [
+              226
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Switch Between Apps",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Productivity",
+        "id": "071dcfa4-82fe-4312-8d87-e48a1e6f4dfc",
+        "macro": {
+          "actionName": "Alt + F4",
+          "keystroke": {
+            "code": 61,
+            "modifiers": [
+              226
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Exit Active App",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "d05dfca7-ebba-4fbe-80bf-1a12fcecbc5f",
+        "macro": {
+          "actionName": "2",
+          "keystroke": {
+            "code": 31
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Secondary",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "e9ffefdb-367f-4ab7-8cd4-84397a570f09",
+        "macro": {
+          "actionName": "Left Windows + L",
+          "keystroke": {
+            "code": 15,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Lock PC",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "2f7b71e8-4eee-4b13-82b2-1d07fdc988a6",
+        "macro": {
+          "actionName": "Left Windows + A",
+          "keystroke": {
+            "code": 4,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Action Center",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "25802d14-ae6a-45f1-a957-d34e3879cdf8",
+        "macro": {
+          "actionName": "Left Windows + B",
+          "keystroke": {
+            "code": 5,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Set Focus in Notification Area",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "197d6fbe-876e-4b6b-9d67-fbd4e4928b85",
+        "macro": {
+          "actionName": "Left Windows + E",
+          "keystroke": {
+            "code": 8,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open File Explorer",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "9d38464f-3da6-45d0-8b3d-196a97c7ac4b",
+        "macro": {
+          "actionName": "Left Windows + G",
+          "keystroke": {
+            "code": 10,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Windows Game Bar",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "43f1213b-488a-4de9-af86-2b1b292c1ff0",
+        "macro": {
+          "actionName": "Left Windows + I",
+          "keystroke": {
+            "code": 12,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Windows Setting",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "18a1160c-8132-48fe-b5e4-4a70e33da8d0",
+        "macro": {
+          "actionName": "Left Windows + R",
+          "keystroke": {
+            "code": 21,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Run dialog",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "a5d672c7-9ef1-48e8-98be-345b444b62a9",
+        "macro": {
+          "actionName": "Left Windows + T",
+          "keystroke": {
+            "code": 23,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Cycle Task Bar Apps",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "955f5066-3f03-4077-9a7b-b43215c2b620",
+        "macro": {
+          "actionName": "Left Windows + U",
+          "keystroke": {
+            "code": 24,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Ease of Access Center",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "7eb2aa4f-0aae-49d8-b58b-f08906836916",
+        "macro": {
+          "actionName": "Left Windows + X",
+          "keystroke": {
+            "code": 27,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Quick Links",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "560bc7d0-fc99-4254-aae2-e0c0527f115f",
+        "macro": {
+          "actionName": "Left Windows + .",
+          "keystroke": {
+            "code": 55,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Emoji Panel",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "b3b1bc30-747c-4872-a932-820a60267f99",
+        "macro": {
+          "actionName": "Left Windows + Tab",
+          "keystroke": {
+            "code": 43,
+            "modifiers": [
+              227
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Task View",
+        "readOnly": true
+      },
+      {
+        "attribute": "FIRMWARE_LIGHTING_SETTINGS",
+        "firmwareLightingSettings": {
+          "effects": [
+            {
+              "cycleParams": {
+                "intensity": 1,
+                "periodInMs": 8000
+              },
+              "id": "CYCLE",
+              "zoneType": "ZONE_BRANDING"
+            },
+            {
+              "cycleParams": {
+                "intensity": 1,
+                "periodInMs": 8000
+              },
+              "id": "CYCLE",
+              "zoneType": "ZONE_PRIMARY"
+            }
+          ]
+        },
+        "id": "9b85425b-8c71-4b15-808c-1206407f0000",
+        "name": "DEFAULT_CARD_NAME_FIRMWARE_LIGHTING_SETTINGS",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "bf233fe4-6462-4a5e-8a68-6b0ee92c4038",
+        "macro": {
+          "actionName": "Left Windows + Ctrl + Enter",
+          "keystroke": {
+            "code": 40,
+            "modifiers": [
+              227,
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Narrator",
+        "readOnly": true
+      },
+      {
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Windows",
+        "id": "f71d9b1e-3fb4-45aa-9aba-ce3adf5476c2",
+        "macro": {
+          "actionName": "Left Windows + Shift + F23",
+          "keystroke": {
+            "code": 114,
+            "modifiers": [
+              227,
+              225
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Open Copilot",
+        "readOnly": true
+      },
+      {
+        "attribute": "MOUSE_SETTINGS",
+        "id": "9b85425b-8c71-4b15-808c-1204407f0000",
+        "mouseSettings": {
+          "dpiTable": {
+            "activeDpi": 800,
+            "defaultDpi": 800,
+            "levels": [
+              400,
+              800,
+              1600,
+              3200,
+              6400
+            ],
+            "shiftDpi": 400
+          },
+          "reportRate": {
+            "value": 1000
+          }
+        },
+        "name": "DEFAULT_CARD_NAME_MOUSE_SETTINGS",
+        "readOnly": true
+      },
+      {
+        "attribute": "MOUSE_SETTINGS",
+        "id": "f23514bc-c87e-45fc-a977-19234d92a6df",
+        "mouseSettings": {
+          "dpiTable": {
+            "activeDpi": 1400,
+            "defaultDpi": 3200,
+            "levels": [
+              1000,
+              1400,
+              1600,
+              2000,
+              3200
+            ],
+            "shiftDpi": 1000
+          },
+          "reportRate": {
+            "value": 1000
+          }
+        },
+        "name": "DEFAULT_CARD_NAME_MOUSE_SETTINGS",
+        "profileId": "420fd454-0c36-499d-bde4-146823b16147"
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Comms",
+        "id": "e79b6846-5b33-4ced-bc7d-3dd30ad86f37",
+        "macro": {
+          "actionName": "U",
+          "keystroke": {
+            "code": 24
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Team Message",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "1cb89265-88d1-4e50-b023-6cf3b5b2ef65",
+        "macro": {
+          "actionName": "Space",
+          "keystroke": {
+            "code": 44
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Jump",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "e8e7a54f-23af-47f2-817a-313e128a2b11",
+        "macro": {
+          "actionName": "D",
+          "keystroke": {
+            "code": 7
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Strafe Right",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Comms",
+        "id": "896fd05a-dbc5-43f1-b2dd-d2cb4a0c45a5",
+        "macro": {
+          "actionName": "Y",
+          "keystroke": {
+            "code": 28
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Chat Message",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "98a46832-4fd0-4dc7-b5b1-cc5bf35dc008",
+        "macro": {
+          "actionName": "I",
+          "keystroke": {
+            "code": 12
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Toggle Inventory Display",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Comms",
+        "id": "7c4a7240-97f6-4002-b857-378cde925d58",
+        "macro": {
+          "actionName": "X",
+          "keystroke": {
+            "code": 27
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Standard Radio Message",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "2cfbd53a-c862-4c87-bdee-6c3dc1d19fff",
+        "macro": {
+          "actionName": "W",
+          "keystroke": {
+            "code": 26
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Move Forward",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "d82fc067-d9cf-4b29-887e-9151fcc6e883",
+        "macro": {
+          "actionName": "Shift",
+          "keystroke": {
+            "modifiers": [
+              225
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Walk",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "cb2c800f-9fe5-4ebb-9883-605cda0af413",
+        "macro": {
+          "actionName": "Ctrl",
+          "keystroke": {
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Duck",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "6d7a2117-19b8-484e-9d83-418a526b3e4b",
+        "macro": {
+          "actionName": "R",
+          "keystroke": {
+            "code": 21
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Reload",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "446f9531-41a7-4528-b26a-ca79624b4679",
+        "macro": {
+          "actionName": "R",
+          "keystroke": {
+            "code": 21
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Reload",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "c86e2b9a-08e9-4d7f-85a0-ebd32132a440",
+        "macro": {
+          "actionName": "G",
+          "keystroke": {
+            "code": 10
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Drop Weapon",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Skills",
+        "id": "b6bf095e-bd87-448c-8dbd-c74ae1478902",
+        "macro": {
+          "actionName": "E",
+          "keystroke": {
+            "code": 8
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Use",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Comms",
+        "id": "b96591eb-2cdc-4073-895c-93eaba18b968",
+        "macro": {
+          "actionName": "Z",
+          "keystroke": {
+            "code": 29
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Command Radio Message",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Comms",
+        "id": "509fdf39-4e28-44c6-aa83-af8d6bb14813",
+        "macro": {
+          "actionName": "C",
+          "keystroke": {
+            "code": 6
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Report Radio Message",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Comms",
+        "id": "4926d34f-612c-4de2-836b-53f51fea0f96",
+        "macro": {
+          "actionName": "K",
+          "keystroke": {
+            "code": 14
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Use Mic",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "37d94c78-57f3-4c0f-a311-af283362796b",
+        "macro": {
+          "actionName": "B",
+          "keystroke": {
+            "code": 5
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Buy Menu",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "3d64b349-89b8-409a-8055-7d576355dd0f",
+        "macro": {
+          "actionName": "F1",
+          "keystroke": {
+            "code": 58
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Autobuy",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "a26446ac-b75f-4c20-8c34-723290c634d3",
+        "macro": {
+          "actionName": "F2",
+          "keystroke": {
+            "code": 59
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Rebuy",
+        "readOnly": true
+      },
+      {
+        "attribute": "MOUSE_SETTINGS",
+        "id": "b4c6828a-f5d5-449d-9186-64cbb2eff339",
+        "mouseSettings": {
+          "dpiTable": {
+            "activeDpi": 3650,
+            "defaultDpi": 11900,
+            "levels": [
+              400,
+              1050,
+              2200,
+              3650,
+              11900
+            ],
+            "shiftDpi": 400
+          },
+          "reportRate": {
+            "value": 1000
+          }
+        },
+        "name": "DEFAULT_CARD_NAME_MOUSE_SETTINGS",
+        "profileId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1"
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "191cca40-2a7a-4d72-9300-d032eee2e438",
+        "macro": {
+          "actionName": "Tab",
+          "keystroke": {
+            "code": 43
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Scoreboard",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "39fc8334-3d56-46b4-ac10-157821488e63",
+        "macro": {
+          "actionName": "5",
+          "keystroke": {
+            "code": 34
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Bomb",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "99c2bed6-5e2a-427d-bd21-8fe94e0f3ce0",
+        "macro": {
+          "actionName": "S",
+          "keystroke": {
+            "code": 22
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Move Backward",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "18603ded-06e7-4389-9658-8731e98e8abc",
+        "macro": {
+          "actionName": "1",
+          "keystroke": {
+            "code": 30
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Primary Weapon",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "563ef68f-127e-46a3-a1e5-1567f79c8c01",
+        "macro": {
+          "actionName": "2",
+          "keystroke": {
+            "code": 31
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Secondary",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "1e55a2de-6371-4d1c-8ced-e3a030f6c822",
+        "macro": {
+          "actionName": "Shift",
+          "keystroke": {
+            "modifiers": [
+              225
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Walk",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "c14a1274-3eb8-421f-a66d-e70af6f9539d",
+        "macro": {
+          "actionName": "3",
+          "keystroke": {
+            "code": 32
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Knife",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "2560989e-268e-49d5-9b41-80ee9e90c760",
+        "macro": {
+          "actionName": "G",
+          "keystroke": {
+            "code": 10
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Drop Weapon",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "d12f76a3-1107-457e-af6b-eadbf46fe561",
+        "macro": {
+          "actionName": "4",
+          "keystroke": {
+            "code": 33
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Cycle Grenades",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "411199c2-d147-411b-b276-802aa0d00128",
+        "macro": {
+          "actionName": "6",
+          "keystroke": {
+            "code": 35
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "HE Grenade",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "284dad0e-521d-443d-abc6-f375c0e8022f",
+        "macro": {
+          "actionName": "8",
+          "keystroke": {
+            "code": 37
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Smoke Grenade",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "0223724e-8582-4551-a6fe-fe5f8fd050c4",
+        "macro": {
+          "actionName": "9",
+          "keystroke": {
+            "code": 38
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Decoy Grenade",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "ce93cbd9-4d9a-4335-b6a4-e129e3072cdd",
+        "macro": {
+          "actionName": "A",
+          "keystroke": {
+            "code": 4
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Strafe Left",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "5020915a-3c16-4f98-9bf4-ae6c748c732d",
+        "macro": {
+          "actionName": "0",
+          "keystroke": {
+            "code": 39
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Molotov Cocktail",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "1ce7d1db-af1c-43ad-b913-967cfa8311a0",
+        "macro": {
+          "actionName": "M",
+          "keystroke": {
+            "code": 16
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Choose Team",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "263fbd0f-6796-4045-a184-0c0c122f04bc",
+        "macro": {
+          "actionName": "`",
+          "keystroke": {
+            "code": 53
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Toggle Console",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "acc9c962-5bd0-4399-b2a2-70ab6d06d39c",
+        "macro": {
+          "actionName": "7",
+          "keystroke": {
+            "code": 36
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Flashbang",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "6c531178-8f81-45f3-9ec2-ca601728e438",
+        "macro": {
+          "actionName": "I",
+          "keystroke": {
+            "code": 12
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Toggle Inventory Display",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "320c361a-305c-4679-8610-de3b26b232ea",
+        "macro": {
+          "actionName": "D",
+          "keystroke": {
+            "code": 7
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Strafe Right",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "068d061b-b1c3-49c0-a6b4-8d019c48102c",
+        "macro": {
+          "actionName": "W",
+          "keystroke": {
+            "code": 26
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Move Forward",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "8edd6c9b-341f-4699-8d41-a170a47c46e1",
+        "macro": {
+          "actionName": "8",
+          "keystroke": {
+            "code": 37
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Smoke Grenade",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Skills",
+        "id": "7f12445a-f791-4aad-9fd2-1664896166b6",
+        "macro": {
+          "actionName": "E",
+          "keystroke": {
+            "code": 8
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Use",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "229a928d-c5aa-4001-b057-e9886e600e58",
+        "macro": {
+          "actionName": "Space",
+          "keystroke": {
+            "code": 44
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Jump",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Movement",
+        "id": "cef6c792-843e-4f4b-b119-c6edf0c6ad1c",
+        "macro": {
+          "actionName": "Ctrl",
+          "keystroke": {
+            "modifiers": [
+              224
+            ]
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Duck",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "40061b62-792b-4ceb-9d0e-882816572989",
+        "macro": {
+          "actionName": "3",
+          "keystroke": {
+            "code": 32
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Knife",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Comms",
+        "id": "7e763d69-e980-4ee5-b8d7-9b53ca25759c",
+        "macro": {
+          "actionName": "Z",
+          "keystroke": {
+            "code": 29
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Command Radio Message",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Comms",
+        "id": "ea1fe703-50f2-4c49-81e4-02f86f808d4e",
+        "macro": {
+          "actionName": "X",
+          "keystroke": {
+            "code": 27
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Standard Radio Message",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Comms",
+        "id": "50ef3186-0274-4ddf-b692-3a6393bc1329",
+        "macro": {
+          "actionName": "U",
+          "keystroke": {
+            "code": 24
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Team Message",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Comms",
+        "id": "cf869bef-6821-46f1-b001-4b65cda98be1",
+        "macro": {
+          "actionName": "Y",
+          "keystroke": {
+            "code": 28
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Chat Message",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Comms",
+        "id": "e6176916-4406-4533-afbd-ba61acf42c15",
+        "macro": {
+          "actionName": "K",
+          "keystroke": {
+            "code": 14
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Use Mic",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "f9ae1ca3-1ad3-431e-9615-c54b55e091f0",
+        "macro": {
+          "actionName": "B",
+          "keystroke": {
+            "code": 5
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Buy Menu",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "ea622927-fd42-4409-abff-2c0e93c85fa7",
+        "macro": {
+          "actionName": "F1",
+          "keystroke": {
+            "code": 58
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Autobuy",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "4d2d7c06-553e-449d-852a-2f0a7bc34bbd",
+        "macro": {
+          "actionName": "9",
+          "keystroke": {
+            "code": 38
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Decoy Grenade",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "e7d2344e-77cc-4c42-9999-6d6adc92c8b2",
+        "macro": {
+          "actionName": "F2",
+          "keystroke": {
+            "code": 59
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Rebuy",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "0c92acdf-9112-4c81-a0bc-5c4e998df526",
+        "macro": {
+          "actionName": "Tab",
+          "keystroke": {
+            "code": 43
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Scoreboard",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "270a62e7-b317-443b-8b2b-4a5e12e2fe97",
+        "macro": {
+          "actionName": "1",
+          "keystroke": {
+            "code": 30
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Primary Weapon",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Weapons",
+        "id": "86320756-d942-47d2-a5b6-01527e35666e",
+        "macro": {
+          "actionName": "0",
+          "keystroke": {
+            "code": 39
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Molotov Cocktail",
+        "readOnly": true
+      },
+      {
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "attribute": "MACRO_PLAYBACK",
+        "category": "Interface",
+        "id": "ed32c53a-cb3e-4469-bfc3-4728ee5f03c0",
+        "macro": {
+          "actionName": "M",
+          "keystroke": {
+            "code": 16
+          },
+          "type": "KEYSTROKE"
+        },
+        "name": "Choose Team",
+        "readOnly": true
+      }
+    ]
+  },
+  "crash_reporting": {
+    "userPrompted": true,
+    "versionNumber": "2020.03"
+  },
+  "created": "2025-09-08T01:35:07.104Z",
+  "device_recommendation_enabled": true,
+  "devices/known": {
+    "knownList": [
+      {
+        "baseModelId": "g502_wireless",
+        "firstSeenTimestamp": "1757295347858",
+        "modelId": "g502_wireless",
+        "reportedToAnalytics": true,
+        "serialNumber": "1740432140",
+        "signature": "MOUSE.g502_wireless.0.1740432140",
+        "timestamp": "1757358409990",
+        "type": "MOUSE"
+      }
+    ]
+  },
+  "first_run_version": "2025.6.759533",
+  "home_layout": "grid",
+  "installed_integrations": [
+    "3776b8da1238dc5",
+    "7264dd41c5d6c6f6",
+    "9f1134cfb89202f3",
+    "ae67192054b1d99f"
+  ],
+  "integration_manager_settings": {
+    "allowLedSdk": true
+  },
+  "language": "en-US",
+  "last_run_version": "2025.6.759533",
+  "lighting_custom_palette": {},
+  "lighting_rgb_to_custom_migration_done": false,
+  "lighting_sleep": true,
+  "lock_notifications_enabled": false,
+  "low_battery_notifications_enabled": false,
+  "marketing_emails_optin_shown": true,
+  "mouse_buttons_swapped": false,
+  "non_interactive_prompted": [],
+  "notifications_enabled": true,
+  "onboarding_shown": true,
+  "profile_setup_popup_shown": false,
+  "profiles": {
+    "profiles": [
+      {
+        "activeForApplication": true,
+        "applicationId": "420fd454-0c36-499d-bde4-146823b16147",
+        "assignments": [
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-040200000000",
+            "slotId": "g502wireless_g7_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-020100000000",
+            "slotId": "g502wireless_g1_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-040b00000000",
+            "slotId": "g502wireless_g11_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g5_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g1_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g10_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g2_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g11_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-040300000000",
+            "slotId": "g502wireless_g6_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g4_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g9_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g3_m1_shifted"
+          },
+          {
+            "cardId": "f23514bc-c87e-45fc-a977-19234d92a6df",
+            "slotId": "g502wireless_mouse_settings"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-020500000000",
+            "slotId": "g502wireless_g5_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-020300000000",
+            "slotId": "g502wireless_g3_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090600000000",
+            "slotId": "g502wireless_g9_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g8_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-040100000000",
+            "slotId": "g502wireless_g8_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-020200000000",
+            "slotId": "g502wireless_g2_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g6_m1_shifted"
+          },
+          {
+            "cardId": "9b85425b-8c71-4b15-808c-1206407f0000",
+            "slotId": "g502wireless_lighting_setting_firmware"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g7_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-020400000000",
+            "slotId": "g502wireless_g4_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-040c00000000",
+            "slotId": "g502wireless_g10_m1"
+          }
+        ],
+        "id": "420fd454-0c36-499d-bde4-146823b16147",
+        "name": "PROFILE_NAME_DEFAULT"
+      },
+      {
+        "activeForApplication": true,
+        "applicationId": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "assignments": [
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g10_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g1_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g11_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g7_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-020500000000",
+            "slotId": "g502wireless_g5_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-040200000000",
+            "slotId": "g502wireless_g7_m1"
+          },
+          {
+            "cardId": "9b85425b-8c71-4b15-808c-1206407f0000",
+            "slotId": "g502wireless_lighting_setting_firmware"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-040300000000",
+            "slotId": "g502wireless_g6_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090600000000",
+            "slotId": "g502wireless_g9_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-040b00000000",
+            "slotId": "g502wireless_g11_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g8_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g3_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g9_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g4_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-040c00000000",
+            "slotId": "g502wireless_g10_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-020100000000",
+            "slotId": "g502wireless_g1_m1"
+          },
+          {
+            "cardId": "b4c6828a-f5d5-449d-9186-64cbb2eff339",
+            "slotId": "g502wireless_mouse_settings"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g6_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g5_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-020300000000",
+            "slotId": "g502wireless_g3_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-090700000000",
+            "slotId": "g502wireless_g2_m1_shifted"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-040100000000",
+            "slotId": "g502wireless_g8_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-020400000000",
+            "slotId": "g502wireless_g4_m1"
+          },
+          {
+            "cardId": "0f82f693-5b78-4cf5-867e-020200000000",
+            "slotId": "g502wireless_g2_m1"
+          }
+        ],
+        "id": "ca572e6a-c76d-4e34-bd64-3665c0d0b0c1",
+        "name": "CS"
+      }
+    ]
+  },
+  "profiles/auto_switching/enabled": true,
+  "profiles/auto_switching/migrated": true,
+  "release_notes_build_id": "572625",
+  "scanned_applications": {},
+  "seen_coach_marks": [
+    "coach-mark-panel-persistent-lock"
+  ],
+  "settings_transferred": true,
+  "show_close_recommendation_popup": true,
+  "webcam_in_use": false
+}
