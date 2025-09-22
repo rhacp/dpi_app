@@ -2,6 +2,7 @@ package com.rhacp.dip_app.services.gui.scene;
 
 import com.rhacp.dip_app.models.DPI;
 import com.rhacp.dip_app.services.dpi.DPIService;
+import com.rhacp.dip_app.services.user_config.UserConfigService;
 import javafx.application.Platform;
 import javafx.geometry.Pos;
 import javafx.geometry.Rectangle2D;
@@ -23,21 +24,37 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Service
 public class OverlayServiceImpl implements OverlayService {
 
+    private final UserConfigService userConfigService;
+
     private final DPIService dpiService;
 
-    private Stage stage;
+    private Stage stage = null;
 
     private final AtomicInteger current = new AtomicInteger(0);
 
     private final List<Label> labelList = new ArrayList<>();
 
-    public OverlayServiceImpl(DPIService dpiService) {
+    public OverlayServiceImpl(UserConfigService userConfigService, DPIService dpiService) {
+        this.userConfigService = userConfigService;
         this.dpiService = dpiService;
     }
 
     @Override
     public void createOverlay() {
+        // check with userConfigService.checkExistingConfig(); if false, ask the user to change it
+
+        if (!userConfigService.checkUserConfig()) {
+            return;
+        }
+
         DPI dpi = dpiService.getDPIObject();
+//        try {
+//            dpi = dpiService.getDPIObject();
+//        } catch (RuntimeException e) {
+//            log.error("Could not create overlay scene. Method: createOverlay", e);
+//            // show notification
+//            return;
+//        }
 
         // Top-level container. Dummy, you cannot see and not showing in windows bar.
         stage = new Stage();
@@ -75,8 +92,17 @@ public class OverlayServiceImpl implements OverlayService {
 //    @Scheduled(fixedRate = 60000, initialDelay = 10000)
     @Override
     public void updateOverlay() {
+        //check if current user config is vaild. if not, ask user to update it
         // Get DPI Object
         DPI receivedDpi = dpiService.getDPIObject();
+//        try {
+//            receivedDpi = dpiService.getDPIObject();
+//        } catch (RuntimeException e) {
+//            log.error("Could not update overlay. Method: updateOverlay", e);
+//            // show notification
+//            return;
+//        }
+
         int receivedCurrentIndex = receivedDpi.getProfileDPI().indexOf(receivedDpi.getCurrentDPI());
         List<Integer> currentDpiList = labelList.stream()
                 .map(element -> Integer.valueOf(element.getText()))
@@ -128,6 +154,11 @@ public class OverlayServiceImpl implements OverlayService {
             overlay.setX(screenBounds.getMaxX() - overlay.getWidth() - 10);
             overlay.setY(10);
         });
+    }
+
+    @Override
+    public Stage getStage() {
+        return stage;
     }
 
     private void updateCurrentDpi(Integer receivedCurrentIndex) {

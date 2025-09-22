@@ -9,4 +9,8 @@ public final class Constants {
             "lghub_agent.exe",
             "lghub_updater.exe"
     );
+
+    public static final String USER_CONFIG_PATH_WINDOWS = System.getenv("APPDATA") + "\\dpi_app\\user_settings.yaml";
+
+    public static final String USER_CONFIG_PATH_LINUX_MAC = System.getProperty("user.home") + "/.config/dpi_app/user_settings.yaml";
 }

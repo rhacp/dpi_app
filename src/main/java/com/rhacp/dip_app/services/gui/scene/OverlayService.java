@@ -15,4 +15,6 @@ public interface OverlayService {
     void buttonDownPressed();
 
     void showOverlay(Stage overlay);
+
+    Stage getStage();
 }

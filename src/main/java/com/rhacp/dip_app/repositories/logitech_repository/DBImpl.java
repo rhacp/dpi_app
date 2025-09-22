@@ -1,26 +1,26 @@
 package com.rhacp.dip_app.repositories.logitech_repository;
 
-import org.springframework.jdbc.core.JdbcTemplate;
+import com.rhacp.dip_app.services.jdbc.JdbcTemplateProviderService;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public class DBImpl implements DB {
 
-    private final JdbcTemplate jdbcTemplate;
+    private final JdbcTemplateProviderService jdbcTemplateProviderService;
 
-    public DBImpl(JdbcTemplate jdbcTemplate) {
-        this.jdbcTemplate = jdbcTemplate;
+    public DBImpl(JdbcTemplateProviderService jdbcTemplateProviderService) {
+        this.jdbcTemplateProviderService = jdbcTemplateProviderService;
     }
 
     @Override
     public String getJsonString() {
         String query = "SELECT file FROM data";
-        return jdbcTemplate.queryForObject(query, String.class);
+        return jdbcTemplateProviderService.getJdbcTemplate().queryForObject(query, String.class);
     }
 
     @Override
     public void setJsonString(String jsonString) {
         String query = "UPDATE data SET file = ? WHERE _id = ?";
-        jdbcTemplate.update(query, jsonString, "1");
+        jdbcTemplateProviderService.getJdbcTemplate().update(query, jsonString, "1");
     }
 }
