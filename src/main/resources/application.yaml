@@ -17,6 +17,7 @@ app:
   configuration:
     dpiUp: "F13"
     dpiDown: "F14"
+    dpiUpdate: "F15"
 
 # SQLite
 spring:

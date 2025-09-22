@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class AppProperties {
 
-    @Value("${app.json.path-one}")
-    private String jsonPathOne;
+    @Value("${app.json.path}")
+    private String jsonPath;
 
     @Value("${app.json.profileName}")
     private String profileName;
@@ -22,4 +22,7 @@ public class AppProperties {
 
     @Value("${app.configuration.dpiDown}")
     private String dpiDown;
+
+    @Value("${app.configuration.dpiUpdate}")
+    private String dpiUpdate;
 }

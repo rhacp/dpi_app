@@ -1,7 +1,10 @@
 package com.rhacp.dip_app.services.gui.scene;
 
+import com.rhacp.dip_app.models.UserConfig;
 import com.rhacp.dip_app.services.gui.component.TopBarService;
-import com.rhacp.dip_app.utils.AppProperties;
+import com.rhacp.dip_app.services.jdbc.JdbcTemplateProviderService;
+import com.rhacp.dip_app.services.user_config.UserConfigService;
+import com.rhacp.dip_app.services.user_config.UserConfigServiceImpl;
 import javafx.application.Platform;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -28,9 +31,9 @@ import java.util.List;
 @Service
 public class ConfigServiceImpl implements ConfigService {
 
-    private final AppProperties appProperties;
-
     private final TopBarService topBarService;
+
+    private final UserConfigService userConfigService;
 
     private Stage stage;
 
@@ -38,9 +41,11 @@ public class ConfigServiceImpl implements ConfigService {
 
     private final List<Label> labelList = new ArrayList<>();
 
-    public ConfigServiceImpl(AppProperties appProperties, TopBarService topBarService) {
-        this.appProperties = appProperties;
+    private final List<Button> buttonList = new ArrayList<>();
+
+    public ConfigServiceImpl(TopBarService topBarService, UserConfigService userConfigService) {
         this.topBarService = topBarService;
+        this.userConfigService = userConfigService;
     }
 
     @Override
@@ -65,16 +70,20 @@ public class ConfigServiceImpl implements ConfigService {
         root.getChildren().add(separator);
 
         // Set up config horizontal items
-        root.getChildren().add(createConfigHItem("G Hub DB file path (settings.db): ", "Path", appProperties.getJsonPathOne()));
-        root.getChildren().add(createConfigHItem("Profile name to be tracked in G Hub: ", "Name", appProperties.getProfileName()));
-        root.getChildren().add(createConfigHItem("SlotId (example: g502wireless_mouse_settings): ", "Mouse Model", appProperties.getSlotId()));
-        root.getChildren().add(createConfigHItem("Button DPI up: ", "Button Up", appProperties.getDpiUp()));
-        root.getChildren().add(createConfigHItem("Button DPI down: ", "Button Down", appProperties.getDpiDown()));
+
+        root.getChildren().add(createConfigHItem("G Hub DB file path (settings.db): ", "Path", userConfigService.getUserConfig().getPath()));
+        root.getChildren().add(createConfigHItem("Profile name to be tracked in G Hub: ", "Name", userConfigService.getUserConfig().getProfileName()));
+        root.getChildren().add(createConfigHItem("SlotId (example: g502wireless_mouse_settings): ", "Mouse Model", userConfigService.getUserConfig().getSlotId()));
+        root.getChildren().add(createConfigHItem("Button DPI up: ", "Button Up", userConfigService.getUserConfig().getDpiUp()));
+        root.getChildren().add(createConfigHItem("Button DPI down: ", "Button Down", userConfigService.getUserConfig().getDpiDown()));
+        root.getChildren().add(createConfigHItem("Button DPI update: ", "Button Update", userConfigService.getUserConfig().getDpiUpdate()));
+
+        log.info(userConfigService.getUserConfig().getDpiUpdate());
 
         // Set up buttons
         HBox hButtonBox = new HBox(20);
         hButtonBox.setAlignment(Pos.CENTER);
-        hButtonBox.setPadding(new Insets(15, 0, 20, 0 ));
+        hButtonBox.setPadding(new Insets(15, 0, 20, 0));
 
         hButtonBox.getChildren().addAll(createConfigButton("Save"),
                 createConfigButton("Cancel"));
@@ -84,6 +93,12 @@ public class ConfigServiceImpl implements ConfigService {
         Scene scene = new Scene(root);
         scene.setFill(Color.TRANSPARENT);
         stage.setScene(scene);
+
+        if (!userConfigService.checkUserConfig()) {
+            showAtCoordinates(10, 10);
+            buttonList.get(0).setOnAction(e -> saveButtonTwo());
+            buttonList.get(1).setOnAction(e -> cancelButtonTwo());
+        }
     }
 
     @Override
@@ -152,7 +167,7 @@ public class ConfigServiceImpl implements ConfigService {
         Region separator = new Region();
         HBox.setHgrow(separator, Priority.ALWAYS);
 
-        hBox.getChildren().addAll(createItemLabel(labelText),separator, createItemTextField(prompt, initial));
+        hBox.getChildren().addAll(createItemLabel(labelText), separator, createItemTextField(prompt, initial));
 
         return hBox;
     }
@@ -184,14 +199,53 @@ public class ConfigServiceImpl implements ConfigService {
         }
 
         log.info("Button {} created. Method: createConfigButton", btn.getText());
+        buttonList.add(btn);
         return btn;
     }
 
     private void saveButton() {
+        UserConfig userConfig = new UserConfig(textFieldList.get(0).getText(),
+                textFieldList.get(1).getText(),
+                textFieldList.get(2).getText(),
+                textFieldList.get(3).getText(),
+                textFieldList.get(4).getText(),
+                textFieldList.get(5).getText());
 
+        userConfigService.saveLocalUserConfig(userConfig);
+
+        stage.hide();
+
+        if (!userConfigService.checkUserConfig()) {
+            stage.show();
+        }
+
+        log.info("Configuration panel hide. Method: saveButton");
     }
 
     private void cancelButton() {
-        hideConfig();
+        stage.hide();
+        log.info("Configuration panel hide. Method: cancelButton");
+    }
+
+    private void saveButtonTwo() {
+        UserConfig userConfig = new UserConfig(textFieldList.get(0).getText(),
+                textFieldList.get(1).getText(),
+                textFieldList.get(2).getText(),
+                textFieldList.get(3).getText(),
+                textFieldList.get(4).getText(),
+                textFieldList.get(5).getText());
+
+        userConfigService.saveLocalUserConfig(userConfig);
+
+        log.info("App closed. Method: saveButtonTwo");
+        Platform.exit();
+        System.exit(0);
+        stage.hide();
+    }
+
+    private void cancelButtonTwo() {
+        Platform.exit();
+        System.exit(0);
+        stage.hide();
     }
 }

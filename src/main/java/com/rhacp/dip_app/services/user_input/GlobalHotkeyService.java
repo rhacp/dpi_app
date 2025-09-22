@@ -4,6 +4,8 @@ import com.github.kwhat.jnativehook.GlobalScreen;
 import com.github.kwhat.jnativehook.keyboard.NativeKeyEvent;
 import com.github.kwhat.jnativehook.keyboard.NativeKeyListener;
 import com.rhacp.dip_app.services.gui.scene.OverlayService;
+import com.rhacp.dip_app.services.user_config.UserConfigService;
+import com.rhacp.dip_app.utils.KeyMapper;
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 import lombok.extern.slf4j.Slf4j;
@@ -13,9 +15,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class GlobalHotkeyService implements NativeKeyListener {
 
+    private final UserConfigService userConfigService;
+
     private final OverlayService overlayService;
 
-    public GlobalHotkeyService(OverlayService overlayService) {
+    public GlobalHotkeyService(UserConfigService userConfigService, OverlayService overlayService) {
+        this.userConfigService = userConfigService;
         this.overlayService = overlayService;
     }
 
@@ -50,10 +55,17 @@ public class GlobalHotkeyService implements NativeKeyListener {
     public void nativeKeyPressed(NativeKeyEvent e) {
         int keyCode = e.getKeyCode();
 
-        switch (keyCode) {
-            case NativeKeyEvent.VC_F13 -> overlayService.buttonUpPressed();
-            case NativeKeyEvent.VC_F14 -> overlayService.buttonDownPressed();
-            case NativeKeyEvent.VC_F15 -> overlayService.updateOverlay();
+        int dpiUpKey = KeyMapper.getKey(userConfigService.getUserConfig().getDpiUp());
+        int dpiDownKey = KeyMapper.getKey(userConfigService.getUserConfig().getDpiDown());
+        int dpiUpdateKey = KeyMapper.getKey(userConfigService.getUserConfig().getDpiUpdate());
+
+
+        if (keyCode == dpiUpKey) {
+            overlayService.buttonUpPressed();
+        } else if (keyCode == dpiDownKey) {
+            overlayService.buttonDownPressed();
+        } else if (keyCode == dpiUpdateKey) {
+            overlayService.updateOverlay();
         }
     }
 

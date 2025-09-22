@@ -1,10 +1,10 @@
 package com.rhacp.dip_app.services.yaml;
 
+import com.rhacp.dip_app.models.UserConfig;
+
 public interface YamlWorkerService {
 
-    void saveChanges();
+    void saveUserConfigToYaml(UserConfig userConfig);
 
-    void loadYaml();
-
-
+    UserConfig getUserConfigFromYaml();
 }
